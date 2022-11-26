@@ -1,0 +1,188 @@
+@import url(style_card.css);
+@import url(presentation.css);
+
+
+html
+{
+	background-color :#ececec;
+
+}
+
+
+
+.nav {
+	display: flex;
+	align-items: center;
+	margin-top: 30px;
+    border-radius: 5px;
+	background-color :#2f435e;
+	color : #ececec;
+	font-size : 1.3rem;	
+	padding : 5px;	
+	font-style:italic;
+	justify-content: space-between;
+}
+
+li > a {
+	
+	background-color : #44566c;
+    border-radius: 10px;
+	padding-left : 10px;
+	padding-right : 10px;
+	padding-top : 5px;
+	padding-bottom : 5px;
+	text-decoration: none;
+	color : #ececec;
+}
+
+
+ul 
+{
+	display: flex;
+	gap: 30px;
+	font-style: italic;
+	font-size: 100%;
+	text-decoration: underline;
+	justify-content: end;
+	list-style: none;
+}
+
+h2 {
+	border-radius: 30px;	
+	color : #ececec;
+	font-size : 1.8rem;
+	font-family : Verdana, Geneva, Tahoma, sans-serif;
+	font-weight : bold;
+	padding : 10px;
+	text-align : center;
+	font-style:unset;
+}
+
+.projets > h2 {
+	border-radius: 30px;	
+	color :#2f435e;
+	font-size : 1.8rem;
+	font-family : Verdana, Geneva, Tahoma, sans-serif;
+	font-weight : bold;
+	padding : 10px;
+	text-align : center;
+	font-style:unset;
+	text-decoration:underline;
+	
+}
+
+
+
+p  
+{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	border-left : 3px solid #4b5e65;
+	border-right : 3px solid #4b5e65;
+	font-size: 1.2rem;	
+	margin-left : 10px;
+	margin-right : 20px;
+	padding : 20px;
+	text-align:center;
+	color : #2f435e;
+	font-size: 150%;
+	font-weight: bold;
+	
+	
+}
+
+.haut_page {
+	font-size : 2rem;
+	text-align: center;
+	margin-top: 30px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	background-color:#14243D ;
+	border-radius: 10px;
+	list-style: none;
+}
+
+a:hover {
+	opacity: 90%;
+	background-color: #738db0;
+	transition: 0.5s;
+}
+
+
+@media screen and (max-width: 1500px) 
+{
+	.nav {
+		font-size: 1rem;
+	}
+
+	ul{
+		font-size: 70%;
+		padding-left: 15px;
+
+	}
+
+	.nav > h2 {
+		padding-right: 0px;
+	}
+
+	h2{
+		font-size: 90%;
+	}
+
+	.navbar {
+		font-size: 90%;
+	}
+
+	.container {
+	  margin: 1em 2em;
+	}
+
+	h1 {
+		font-size: 4rem;
+	}
+
+	p {
+		font-size: 100%;
+		
+	}
+
+	.card {
+		height: 279px;
+        width: 200px;
+	}
+
+	.cube > img {
+		height: 100px;
+        width: 130px;
+	}
+
+	.grid {
+		display: grid;
+		grid-gap: 0px;
+	}
+
+	.gls > a {
+		margin-left: 60px;
+		padding-left : 0px;
+		padding-right : 0px;
+		padding-top : 5px;
+		padding-bottom : 5px;
+
+	}
+
+	.card:hover {
+		height: 300px;
+        width: 200px;
+	}
+
+	.principal {
+		height: 200vh
+	}
+  }
+
+  
+
+
+
+
+
